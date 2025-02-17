@@ -8,5 +8,3 @@ def get():
     }
 
     return requests.get(url, headers = headers).json()
-
-get()
